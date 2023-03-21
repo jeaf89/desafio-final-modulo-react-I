@@ -72,7 +72,6 @@ function MiApi() {
                     <div id="texto" className="form-text">El resultado expresado a continuación es el valor de la moneda seleccionada por la cantidad </div>
                 </div>
                 <button type="submit" className="btn btn-primary">Recargar</button>
-                <p>Prueba</p>
 
                 {monedasFiltrada.map((moneda) => monedasFiltrada.length === 1 ? <h2>Resultado:$ {parseFloat(moneda.Valor)*cantidadMonedas}</h2>:null)}
 
