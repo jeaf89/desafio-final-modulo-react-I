@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  min-height: 100vh;
 }
 
 .App-logo {
@@ -36,3 +37,38 @@
     transform: rotate(360deg);
   }
 }
+
+.navbar{
+  color:white;
+  min-width: 100vw;
+  margin: 0;
+  padding: 0;
+}
+.footer{
+  margin-top: 4vh;
+  background-color: rgba(30, 5, 98, 0.2);
+  min-width: 100vw;
+  /* position: absolute; */
+  
+}
+.container{
+  margin: 0;
+  padding: 0%;
+  min-width: 100vw;
+}
+
+ul{
+  list-style: none;
+}
+
+.encabezado{
+  margin-top: 4vh;
+}
+
+.form{
+  
+  width: 60%;
+  margin-left: 20%;
+}
+
+
